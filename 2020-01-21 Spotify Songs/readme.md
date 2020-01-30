@@ -9,3 +9,5 @@ Question 1: Are the songs getting louder?
 Question 2: Are all genres getting louder?
 
 ![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-01-21%20Spotify%20Songs/Loudness.png)
+
+Code is still a WIP and covers more questions and analyses
