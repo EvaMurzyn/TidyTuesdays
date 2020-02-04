@@ -15,4 +15,4 @@ Question 2: WHat's the most popular species planted in each decade?
 Question 3: What's the most popular genus by decade?
 
 
-![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-01-28%20SF%20Trees/Top_Genus_Decade.png)
+![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-01-28%20SF%20Trees/Top_Genus_Decades.png)
