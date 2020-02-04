@@ -42,9 +42,14 @@ which(is.na(spotify_songs$track_album_release_year))
 # create a basic plot instruction for which variables I'm plotting
 b <- ggplot(spotify_songs, aes(x = track_album_release_year, y = loudness))
 
+library(hrbrthemes)
+
 # specify a scatter plot with a regression line
 b + geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) +
-  labs(y= "Loudness", x = "Release year")
+  labs(y= "Loudness", x = "Release year") +
+  ggtitle("Music loudness across the years") + 
+  theme_ft_rc()
+
 
 ###Quantify the effect
 
@@ -74,58 +79,19 @@ colScale <- scale_colour_manual(name = "genre",values = myColours)
 
 # make the graphs
 
+
+
 g1 <- spotify_songs %>%
-  filter(playlist_genre == "edm") %>%
   ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = 'lm') + 
+  geom_point(alpha = 0.1,  position = position_jitter(), show.legend = FALSE) + geom_smooth(method = 'lm', show.legend = FALSE) + 
   colScale + 
   coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
+  labs(y= "Loudness", x = "Release year") +
+  facet_wrap(~playlist_genre) + 
+  ggtitle("Song loudness across time") +
+  theme_ft_rc()
 
-
-g2 <- spotify_songs %>%
-  filter(playlist_genre == "latin") %>%
-  ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) + 
-  colScale + 
-  coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
-
-g3 <- spotify_songs %>%
-  filter(playlist_genre == "pop") %>%
-  ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) + 
-  colScale + 
-  coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
-
-
-g4 <- spotify_songs %>%
-  filter(playlist_genre == "r&b") %>%
-  ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) + 
-  colScale + 
-  coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
-
-g5 <- spotify_songs %>%
-  filter(playlist_genre == "rap") %>%
-  ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) + 
-  colScale + 
-  coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
-
-g6 <- spotify_songs %>%
-  filter(playlist_genre == "rock") %>%
-  ggplot(aes(x = track_album_release_year, y = loudness, colour = playlist_genre)) +
-  geom_point(alpha = 0.1,  position = position_jitter()) + geom_smooth(method = lm) + 
-  colScale + 
-  coord_cartesian( ylim = c(-50, 5)) +
-  labs(y= "Loudness", x = "Release year")
-
-library(gridExtra)
-grid.arrange(g1, g2, g3, g4, g5, g6, top="Song loudness across time by genres", ncol=2)
+g1
 
 
 #look at overall genre diferences
