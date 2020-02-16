@@ -6,4 +6,11 @@ the most frustrating type of customer!
 
 Question 1: Who are the no shows?
 
-![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-02-11%20Hotels/lead_time.png) <!-- .element height="50%" width="50%" -->
+![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-02-11%20Hotels/lead_time.png) <!-- .element height="40%" width="40%" -->
+
+![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-02-11%20Hotels/people.png) <!-- .element height="40%" width="40%" -->
+
+
+Question 2: Is there a time pattern to no-shows?
+
+![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-02-11%20Hotels/seasonal_plot.png) <!-- .element height="40%" width="40%" -->
