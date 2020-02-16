@@ -5,3 +5,6 @@ After looking at a lot of existing Tidy Tuesday examples, I decided to work on t
 the most frustrating type of customer!
 
 Question 1: Who are the no shows?
+
+![alt text](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-02-11%20Hotels/lead_time.png | width = 500)
+
