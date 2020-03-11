@@ -4,7 +4,7 @@ Analysis of data from [TidyTuesday](https://github.com/rfordatascience/tidytuesd
 
 ![Yes](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-03-10_US_Tuition/fee_rise.png) <!-- .element height="40%" width="40%" -->
 
-## Question 2: What are the differences between public and provate universities?
+## Question 2: What are the differences between public and private universities?
 
 ![Some](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-03-10_US_Tuition/proportions.png) <!-- .element height="40%" width="40%" -->
 
