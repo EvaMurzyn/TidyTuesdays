@@ -1,4 +1,4 @@
-Quick analysis of the #TidyTuesday (GDPR violation data)[https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-21]
+Quick analysis of the #TidyTuesday [GDPR violation data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-21)
 
 ## Question 1: What's the single most expensive GDPR violation by country?
 
