@@ -5,9 +5,7 @@ TidyTuesday [Volcano eruption data](https://github.com/rfordatascience/tidytuesd
 I created a simple leaflet map to have a quick look. You can download it and run it [here](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-12_Volcanoes/map.html)
 
 ## Question 2: Where have the biggest eruptions happened since 0AD?
-I played around with gganimate to make this animated gif.
-
-![animated map](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-12_Volcanoes/ad_big_events.gif)
+I played around with gganimate to make this [animated gif](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-12_Volcanoes/ad_big_events.gif). It doesn't want to render on Github, but you can download it.
 
 ## Question 3: Is eruption size and frequency related?
 Fortunately, no! The plot of VEI and frequency looks like a small volcano, too :)
