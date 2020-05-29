@@ -4,8 +4,8 @@ This week was gruelling, as I decided to do analysis of co-occurrences, and I'd 
 
 ## Question 1: What are the most common ingredients, and how are they used together?
 
-[ingredient connections](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-26_Cocktails/22_ingredients.png)
+![ingredient connections](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-26_Cocktails/22_ingredients.png) <!-- .element height="40%" width="40%" -->
 
 ## Question 2: What ingredients get added with an egg?
 
-[egg graph](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-26_Cocktails/egg.png)
+![egg graph](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-05-26_Cocktails/egg.png) <!-- .element height="40%" width="40%" -->
