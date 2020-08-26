@@ -3,4 +3,4 @@ A very silly look at the two beloved animal characters in [Avatar: The Last Airb
 
 ## Is Appa or Momo mentioned more often? And by who? 
 
-![achanges_map](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-08-11_Avatar/momo-appa.png) <!-- .element height="40%" width="40%" -->
+![appa vs momo](https://github.com/EvaMurzyn/TidyTuesdays/blob/master/2020-08-11_Avatar/momo-appa.png) <!-- .element height="40%" width="40%" -->
